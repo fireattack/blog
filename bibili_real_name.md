@@ -6,7 +6,7 @@ B站办BML的俩通告，暴露了一些真名——大部分都是公开信息�
 
 1. [通告2](http://wsbs.wgj.sh.gov.cn/shwgj_zwdt/core/web/welcome/index!getDocumentinfobyId.action?id=402885dd63d36f7d0163eca9a8c7090f) ([web.archive.org备份](https://web.archive.org/web/20180618212603/http://wsbs.wgj.sh.gov.cn/shwgj_zwdt/core/web/welcome/index!getDocumentinfobyId.action?id=402885dd63d36f7d0163eca9a8c7090f))
 
-第一个没啥意思，只有灰灰的大空直美和卢婷，别的全在“共计42人”里给省略了（比如灰灰剩下的、邦邦的一堆等）。第二个的内容罗列一下，舞见之类的就不写了。
+第2个没啥意思，只有灰灰的大空直美和卢婷，别的全在“共计42人”里给省略了（比如灰灰剩下的、邦邦的一堆等）。第1个的内容罗列一下，舞见之类的就不写了。
 
 官方罗马字|性别|类别|国籍|真名|团体
 ---|---|---|---|---|---
