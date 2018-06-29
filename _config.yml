@@ -1,19 +1,21 @@
-name: Blog
-
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: fireattack
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
 baseurl: "/blog"
-theme: Minima
+
+title: MiniBlog
+author: fireattack
+
+# social links
+twitter_username: ikenaikoto
+github_username:  fireattack
+rss: rss
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
