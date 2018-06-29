@@ -1,2 +1,6 @@
 # SITE CONFIGURATION
-baseurl: ""
+name: Your Name
+
+description: test
+url: https://fireattack.github.io
+baseurl: "/blog"
