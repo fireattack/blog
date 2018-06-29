@@ -1,4 +1,7 @@
-# B站暴露fhána的towana真名
+---
+layout: post
+title: B站暴露fhána的towana真名
+---
 
 B站办BML的俩通告，暴露了一些真名——大部分都是公开信息了，比较有意义的是fhána主唱的名字，这里记录下。
 
