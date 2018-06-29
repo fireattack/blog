@@ -1,4 +1,7 @@
-# 如何下载在线视频
+---
+layout: post
+title: 如何下载在线视频
+---
 
 一般的用`youtube-dl`就OK。有些m3u8的要手动下可以用ffmpeg (via [SU](https://superuser.com/questions/1260846/downloading-m3u8-videos))：
 
