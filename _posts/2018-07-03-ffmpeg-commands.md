@@ -18,7 +18,6 @@ ffmpeg -loop 1 -i colortest_hd.bmp -vf scale=out_color_matrix=bt709 -color_prima
 
 参见[Blog文](https://fireattack.wordpress.com/2018/06/09/full-range-video-in-browsers/)
 ```
-Full range:
 ffmpeg -loop 1 -i colortest_hd.bmp -vf scale=out_color_matrix=bt709 -color_primaries 1 -color_trc 1 -colorspace 1 -t 30 -pix_fmt yuvj420p out_420_709_full.mp4
 ```
 * 重点：使用`-pix_fmt yuvj420p`
