@@ -11,5 +11,4 @@ ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "http://s6.vidshare
 
 这有个Python脚本版：<https://github.com/sam46/TSdownloader>
 
-之前遇到过一个需要下Vimeo的，还要合并音频视频好烦，不过这有个不错的[Python脚本](https://github.com/eMBee/vimeo-download)（Vimeo专用）：
-<>：找到master.json传参进去即可
+之前遇到过一个需要下Vimeo的，还要合并音频视频好烦，不过这有个不错的[Python脚本](https://github.com/eMBee/vimeo-download)（Vimeo专用）。使用方法：找到master.json传参进去即可
