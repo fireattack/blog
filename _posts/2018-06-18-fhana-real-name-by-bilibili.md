@@ -37,3 +37,9 @@ ODA NOBUTAKA|男|舞蹈|日本|
 IKEDA MIZUKI|男|舞蹈|日本|
 
 可以看到，比较重要的料就是按照这顺序来看，是KATO KAZUNA 90%是towana的真名。在日站搜了下似乎没有曝光过的。
+
+----
+
+补充：最近广东省文化厅又爆了Aimer的真名，FUJIMOTO EMI（藤本惠实）：
+
+* [通告地址](http://www.gdwht.gov.cn/index.php/news/details/id/93964.html) ([web.archive.org备份](https://web.archive.org/web/20190327004412/http://www.gdwht.gov.cn/index.php/news/details/id/93964.html))
