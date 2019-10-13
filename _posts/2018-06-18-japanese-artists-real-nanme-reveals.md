@@ -1,8 +1,9 @@
 ---
 layout: post
-title: B站暴露fhána的towana真名
+title: 那些被你国文化局爆过真名的日本艺人
 ---
 
+# 2018-06: BML
 B站办BML的俩通告，暴露了一些真名——大部分都是公开信息了，比较有意义的是fhána主唱的名字，这里记录下。
 
 1. [通告1](http://wsbs.wgj.sh.gov.cn/shwgj_zwdt/core/web/welcome/index!getDocumentinfobyId.action?id=402885dd63d36f7d0163eca9a8a8090e) ([web.archive.org备份](https://web.archive.org/web/20180618212607/http://wsbs.wgj.sh.gov.cn/shwgj_zwdt/core/web/welcome/index!getDocumentinfobyId.action?id=402885dd63d36f7d0163eca9a8a8090e))
@@ -11,7 +12,7 @@ B站办BML的俩通告，暴露了一些真名——大部分都是公开信息�
 
 第2个没啥意思，只有灰灰的大空直美和卢婷，别的全在“共计42人”里给省略了（比如灰灰剩下的、邦邦的一堆等）。第1个的内容罗列一下，舞见之类的就不写了。
 
-官方罗马字|性别|类别|国籍|真名|团体
+真名（罗马字）|性别|类别|国籍|艺名|团体
 ---|---|---|---|---|---
 NAKAGAWA REIKO|女|舞蹈|日本 
 SAITO NIINA|女|舞蹈|日本 
@@ -38,7 +39,7 @@ IKEDA MIZUKI|男|舞蹈|日本|
 
 可以看到，比较重要的料就是按照这顺序来看，是KATO KAZUNA 90%是towana的真名。在日站搜了下似乎没有曝光过的。
 
-----
+# 2019-06: Aimer亚洲巡回演唱会
 
 补充：最近广东省文化厅又爆了Aimer的真名，FUJIMOTO EMI（藤本惠实）：
 
