@@ -61,7 +61,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 |------------|---------|-------------|------------|
 | 李嘉       |          |             |            |
 | 田中爱美   |          | 22/7        | 倉岡水巴   |
-| 中村夏実   |          | 22/7        | 花川芽衣   |
+| 中村夏実   |          | 22/7        | 花川芽衣 (没来)  |
 | 麻生千贺   |          | 22/7        | 西條和     |
 | 小野麗華   |          | 22/7        | 宮瀬玲奈   |
 | 浮田早紀子 |          | 22/7        | 海乃るり   |
@@ -82,10 +82,10 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 | 朱涛       |          |             |            |
 | 宋璇       |          |             |            |
 | 大嶋文博   | Tom-H@ck | MYTH & ROID |            |
-| **岡田花菜**   | KIHOW(?)   | MYTH & ROID |            |
+| **岡田花菜**   | KIHOW?   | MYTH & ROID |            |
 
 
-### 歌单
+### 报备歌单
 
 歌单其实更有意思点，各种牛逼的直译（《天空很高风在唱歌》、《唱爱》、《光辉岁月》这几个是我觉得最逗的）。大部分参考微博某个图，让我自己找估计要死人了。
 
@@ -123,14 +123,73 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 | 26  | 每天都感到自豪     | Pride on Everyday       | スフィア    |                          |
 | 27  | 朦胧               | Hazy                    | スフィア    |                          |
 | 28  | 每分每秒你和我     | 一分一秒君と僕の        | スフィア    |                          |
-| 29  | 魔语               |                         | DJ和?       |                          |
-| 30  | 魔术和口香糖和勇气 |                         | DJ和?       |                          |
-| 31  | 铂金迪斯科         | 白金ディスコ            | DJ和?       | 阿良々木月火（井口裕香） |
-| 32  | 不谓侠             |                         | DJ和?       |                          |
-| 33  | 阿布拉卡达布拉     | アブラカダブラ          | DJ和?       | GARNiDELiA               |
+| 29  | 魔语               |Magic Words               | Liyuu     |                          |
+| 30  | 魔术和口香糖和勇气 |                         | Liyuu?       |                          |
+| 31  | 铂金迪斯科         | 白金ディスコ            | Liyuu?       | 阿良々木月火（井口裕香） |
+| 32  | 不谓侠             |                         | Liyuu?       |                          |
+| 33  | 阿布拉卡达布拉     | アブラカダブラ          | Liyuu?       | GARNiDELiA               |
 | 34  | 冥河螺旋           | STYX HELIX              | MYTH & ROID |                          |
 | 35  | 天堂-矛盾          | Paradisus-Paradoxum     | MYTH & ROID |                          |
 | 36  | 万物流転           | PANTA RHEI              | MYTH & ROID |                          |
 | 37  | 影象图             | shadowgraph             | MYTH & ROID |                          |
 | 38  | 静冈丛林           | JINGO JUNGLE            | MYTH & ROID |                          |
 | 39  | 许德拉             | HYDRA                   | MYTH & ROID |                          |
+
+### リスアニ! Live Beijing 实际演唱歌单
+
+Artist顺不确定
+
+#### スフィア
+
+[Source](https://twitter.com/kenny_desu/status/1193076689363800064)
+
+1. Ding! Dong! Ding! Dong!
+1. MOON SIGNAL
+1. Hazy
+1. Pride on Everyday
+1. HIGH POWERED
+
+#### 22/7
+
+[Source](https://twitter.com/idlepig/status/1193067397395046400)
+
+1. 何もしてあげられない
+2. ロマンスの積み木
+3. Rain of lies
+4. 韋駄天娘
+5. 未来があるから
+
+#### 新田恵海
+
+[Source](https://twitter.com/e3usic2n_0/status/1193076120481984512)
+
+1. ROCKET HEART
+2. Colorful Parade
+3. 盟約の彼方
+4. NEXT PHASE
+5. Bon Voyage!
+
+#### 春奈るな
+
+[Source](https://twitter.com/nanalevi/status/1193092776994336769)
+
+01. アイヲウタエ
+02. 空は高く風は歌う
+03. ステラブリーズ 
+04. glory days
+05. 君色シグナル
+
+#### Machico
+
+[Source](https://ameblo.jp/miumachi10/entry-12543833698.html)
+
+1. fantastic dreamer
+1. コレカラ
+1. No buts!
+1. 1ミリ Symphony
+1. TOMORROW
+
+#### Liyuu
+
+* Magic Words
+* (其他不明)

@@ -68,6 +68,6 @@ ffmpeg -i 001_edit.mkv -i 002_edit.mkv -i 003_edit.mkv -i 004_edit.mkv -i 005_ed
 ffmpeg -i input.mkv -ss 00:00:00 -t 00:04:13.940 -c:v libx264 -preset fast -crf 18 -c:a flac cut.mkv
 ```
 * `-t`是时长，可以替换为`-to`为截止时间戳。
-* 把-i放在`-ss`/`-to`前和后有区别，放在前面seek比较快，但是不准，推荐还是放后面。
+* 把`-i`放在`-ss`/`-to`前和后有区别，放在前面seek比较快，但是不准，推荐还是放后面。
 * `-c copy`同理，但是注意只能关键帧切割，所以不一定准。
 
