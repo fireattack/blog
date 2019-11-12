@@ -123,9 +123,9 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 | 26  | 每天都感到自豪     | Pride on Everyday       | スフィア    |                          |
 | 27  | 朦胧               | Hazy                    | スフィア    |                          |
 | 28  | 每分每秒你和我     | 一分一秒君と僕の        | スフィア    |                          |
-| 29  | 魔语               |Magic Words               | Liyuu     |                          |
-| 30  | 魔术和口香糖和勇气 |                         | Liyuu?       |                          |
-| 31  | 铂金迪斯科         | 白金ディスコ            | Liyuu?       | 阿良々木月火（井口裕香） |
+| 29  | 魔语               | Magic Words               | Liyuu     |                          |
+| 30  | 魔术和口香糖和勇气 |   魔法とガムと勇気       | Liyuu       |                          |
+| 31  | 铂金迪斯科         | 白金ディスコ            | Liyuu      | 阿良々木月火（井口裕香） |
 | 32  | 不谓侠             |                         | Liyuu?       |                          |
 | 33  | 阿布拉卡达布拉     | アブラカダブラ          | Liyuu?       | GARNiDELiA               |
 | 34  | 冥河螺旋           | STYX HELIX              | MYTH & ROID |                          |
@@ -137,37 +137,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 ### リスアニ! Live Beijing 实际演唱歌单
 
-Artist顺不确定
-
-#### スフィア
-
-[Source](https://twitter.com/kenny_desu/status/1193076689363800064)
-
-1. Ding! Dong! Ding! Dong!
-1. MOON SIGNAL
-1. Hazy
-1. Pride on Everyday
-1. HIGH POWERED
-
-#### 22/7
-
-[Source](https://twitter.com/idlepig/status/1193067397395046400)
-
-1. 何もしてあげられない
-2. ロマンスの積み木
-3. Rain of lies
-4. 韋駄天娘
-5. 未来があるから
-
-#### 新田恵海
-
-[Source](https://twitter.com/e3usic2n_0/status/1193076120481984512)
-
-1. ROCKET HEART
-2. Colorful Parade
-3. 盟約の彼方
-4. NEXT PHASE
-5. Bon Voyage!
+更新：[官方](https://www.lisani.jp/0000138971/)已经更新歌单
 
 #### 春奈るな
 
@@ -179,6 +149,22 @@ Artist顺不确定
 04. glory days
 05. 君色シグナル
 
+#### 22/7
+
+[Source](https://twitter.com/idlepig/status/1193067397395046400)
+
+1. 何もしてあげられない
+2. ロマンスの積み木
+3. Rain of lies
+4. 韋駄天娘
+5. 未来があるから
+
+#### Liyuu
+
+1. 白金ディスコ
+1. 魔法とガムと勇気
+1. Magic Words
+
 #### Machico
 
 [Source](https://ameblo.jp/miumachi10/entry-12543833698.html)
@@ -189,7 +175,22 @@ Artist顺不确定
 1. 1ミリ Symphony
 1. TOMORROW
 
-#### Liyuu
+#### 新田恵海
 
-* Magic Words
-* (其他不明)
+[Source](https://twitter.com/e3usic2n_0/status/1193076120481984512)
+
+1. ROCKET HEART
+2. Colorful Parade
+3. 盟約の彼方
+4. NEXT PHASE
+5. Bon Voyage!
+
+#### スフィア
+
+[Source](https://twitter.com/kenny_desu/status/1193076689363800064)
+
+1. Ding! Dong! Ding! Dong!
+1. MOON SIGNAL
+1. Hazy
+1. Pride on Everyday
+1. HIGH POWERED
