@@ -47,7 +47,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 ## 2019-10: BICAF
 
-* [通告](http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567) ([web.archive.org备份](https://web.archive.org/web/20191013212734/http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567), [附件doc备份](https://web.archive.org/web/20191013212800/http://whlyj.beijing.gov.cn/cms/web/whj/file.jsp?id=5395597726523567))
+* [通告](http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567) (~~[web.archive.org备份](https://web.archive.org/web/20191013212734/http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567)~~, [archive.today备份](http://archive.ph/YQnBz), [附件doc备份](https://web.archive.org/web/20191013212800/http://whlyj.beijing.gov.cn/cms/web/whj/file.jsp?id=5395597726523567))
 
 
 #### 名称
