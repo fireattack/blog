@@ -73,11 +73,11 @@ ffmpeg -i input.mkv -ss 00:00:00 -t 00:04:13.940 -c:v libx264 -preset fast -crf 
 
 同理，`-to/-t`也可以放在`-i`前后。但是，如果放在之前（自然`-ss`也得在之前），这个误差就比较大了，据我观察可能有1、2秒之多，基本不可用。
 
-所以，又快速又相对准确的办法应该是`-ss xxx -i file -to xxx`这个顺序。但是这里有个问题：从output出来，时间戳是会重置回0的，所以`-to`实际会变成类似`-t`的效果（ss 20 to 30会变成20~50秒而不是30~30秒）。所以，要加`-copyts`保持时间戳：`-ss xxx -i file -to xxx -copyts`才行。
+所以，又快速又相对准确的办法理论上应该是`-ss xxx -i file -to xxx`这个顺序。但是这里有个问题：从output出来，时间戳是会重置回0的，所以`-to`实际会变成类似`-t`的效果（ss 20 to 30会变成20~50秒而不是30~30秒）。所以，要加`-copyts`保持时间戳：`-ss xxx -i file -to xxx -copyts`才行。
 
-然而，这样也问题：许多TS文件会有内嵌的start time，copyts的话时间戳会受到start time属性干扰，导致切错时间点（参见[ffmpeg bug ticket](https://trac.ffmpeg.org/ticket/8451)，虽然被关闭了）。
+然而，**这样也问题**：许多TS文件会有内嵌的start time，copyts的话时间戳会受到start time属性干扰，导致切错时间点（参见[ffmpeg bug ticket](https://trac.ffmpeg.org/ticket/8451)，虽然被关闭了）。
 
-但是`-t`是不受时间戳的变动影响的：所以`-ss xxx -i file -to xxx`（不再需要`-copyts`）依然是准确的。只是，如果想从A时间点切到B，得手动计算下差值了。这里我写了个py脚本帮忙生成命令：
+但是`-t`是不受时间戳的变动影响的：所以`-ss xxx -i file -t xxx`（不再需要`-copyts`）依然是准确的。只是，如果想从A时间点切到B，得手动计算下差值了。这里我写了个py脚本帮忙生成命令：
 
 ```python
 import subprocess
