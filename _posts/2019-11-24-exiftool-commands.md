@@ -41,5 +41,5 @@ exiftool -icc_profile -b -w icc image.jpg
 ### 添加ICC到图片image
 
 ```
-exiftool "-ICC_Profile<={D:\AdobeRGB1998.icc}" image.jpg
+exiftool "-ICC_Profile<=D:\AdobeRGB1998.icc" image.jpg
 ```
