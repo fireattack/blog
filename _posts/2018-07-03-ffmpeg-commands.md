@@ -16,6 +16,17 @@ ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709,format=yuv420p -color_p
   * x264的话也可以用`-x264opts colorprim=bt709:transfer=bt709:colormatrix=bt709`
 * `format=yuv420p`负责输出4:2:0的视频
 
+如果有音频，用下面的：
+
+```bat
+ffmpeg -loop 1 -r 1 -i a.png ^
+-i a.wav ^
+-r 1 -shortest -vf zscale=matrix=709,format=yuv420p -c:v libx264 -tune stillimage -y aaa.mp4
+```
+* 第一行输入1，`-r 1` 来控制input强制1fps读取（否则很慢）；-loop 1保证loop（长度无限）。否则后面的`-shortest`无效。这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…
+* 第二行输入2，没有什么要改的。
+* 第三行是输出控制，同样`-r 1`减少体积。`-shortest`是选择两个输入最短的（即和音频等长，因为图片我们loop了）。
+
 ## 静态图转Full range视频
 
 参见[Blog文](https://fireattack.wordpress.com/2018/06/09/full-range-video-in-browsers/)
