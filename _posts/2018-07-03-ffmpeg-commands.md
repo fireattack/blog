@@ -16,16 +16,20 @@ ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709,format=yuv420p -color_p
   * x264的话也可以用`-x264opts colorprim=bt709:transfer=bt709:colormatrix=bt709`
 * `format=yuv420p`负责输出4:2:0的视频
 
-如果有音频，用下面的：
-
+## 静态图+音频转视频
 ```bat
 ffmpeg -loop 1 -r 1 -i a.png ^
 -i a.wav ^
 -r 1 -shortest -vf zscale=matrix=709,format=yuv420p -c:v libx264 -tune stillimage -y aaa.mp4
 ```
-* 第一行输入1，`-r 1` 来控制input强制1fps读取（否则很慢）；-loop 1保证loop（长度无限）。否则后面的`-shortest`无效。这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…
+* 第一行输入1，`-r 1` 来控制input强制1fps读取（否则会把单图重复读取N遍，很慢）；`-loop 1`保证loop（长度无限）。否则后面的`-shortest`无效。~~这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…~~ 找到了，在[ffmpeg-formats.html § 3.9 image2](https://ffmpeg.org/ffmpeg-formats.html])这个image demuxer的说明里。
 * 第二行输入2，没有什么要改的。
 * 第三行是输出控制，同样`-r 1`减少体积。`-shortest`是选择两个输入最短的（即和音频等长，因为图片我们loop了）。
+
+### 2020-08-02更新
+
+最近发现FFMPEG有个[regression / bug](https://trac.ffmpeg.org/ticket/5456)，使用上述的方式转，出来的视频会比音频长；在input有`-r 1`时更明显（改成较大数值则能缓解）。
+在以上ticket里有人推荐最后添加`-fflags +shortest -max_interleave_delta 500M`来缓解，但是在我这里效果不是很明显。有一个笨方法是先压出来，然后再强行`-c copy -t {audio.length}`一波……
 
 ## 静态图转Full range视频
 
