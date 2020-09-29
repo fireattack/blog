@@ -63,6 +63,32 @@ ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "http://s6.vidshare
 ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.mp4
 ```
 
+无损file level合并 (Concat protocol)
+
+合并TS尤其是HLS下载的TS一定要用这种办法而不要一共上述的steam level（事实上h264之类的都可以先封装ts再直接file level合并），否则会在拼接处出现原始流不存在的卡帧现象（据说是timestamps的锅）。
+
+```bat
+ffmpeg -i "concat:1.ts|2.ts|3.ts" -c copy output.ts
+```
+
+其实可以直接`copy`：
+
+```bat
+copy /b 1.ts + 2.ts + 3.ts output.ts
+```
+
+大批量我直接Python：
+
+```python
+import shutil
+
+out = open('cat_result.ts','wb')
+for f in files: # files is a list of Path obj
+    fi = f.open('rb')
+    shutil.copyfileobj(fi, out)
+    fi.close()
+```
+
 如果是直接重编码的合并：
 
 ```bat
