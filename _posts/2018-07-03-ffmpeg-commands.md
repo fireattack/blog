@@ -87,6 +87,7 @@ for f in files: # files is a list of Path obj
     fi = f.open('rb')
     shutil.copyfileobj(fi, out)
     fi.close()
+out.close()
 ```
 
 如果是直接重编码的合并：
