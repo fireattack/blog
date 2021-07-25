@@ -47,7 +47,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 ## 2019-10: BICAF
 
-* [通告](http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567) (~~[web.archive.org备份](https://web.archive.org/web/20191013212734/http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567)~~, [archive.today备份](http://archive.ph/YQnBz), [附件doc备份](https://web.archive.org/web/20191013212800/http://whlyj.beijing.gov.cn/cms/web/whj/file.jsp?id=5395597726523567))
+* [通告](http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567) ([web.archive.org备份](https://web.archive.org/web/20191013212734/http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567), [archive.today备份](http://archive.ph/YQnBz), [附件doc备份](https://web.archive.org/web/20191013212800/http://whlyj.beijing.gov.cn/cms/web/whj/file.jsp?id=5395597726523567))
 
 #### 名称
 重点是爆了爱生旦那的姓氏，以及22/7全体。我不熟对不上号，只把名一样的放进去了（帆風千春由于早就知道是爱美的妹妹，所以姓寺川不算新闻），其他堆在后面。
