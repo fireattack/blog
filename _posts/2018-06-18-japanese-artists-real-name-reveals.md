@@ -49,13 +49,14 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 * [通告](http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567) (~~[web.archive.org备份](https://web.archive.org/web/20191013212734/http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567)~~, [archive.today备份](http://archive.ph/YQnBz), [附件doc备份](https://web.archive.org/web/20191013212800/http://whlyj.beijing.gov.cn/cms/web/whj/file.jsp?id=5395597726523567))
 
-
 #### 名称
 重点是爆了爱生旦那的姓氏，以及22/7全体。我不熟对不上号，只把名一样的放进去了（帆風千春由于早就知道是爱美的妹妹，所以姓寺川不算新闻），其他堆在后面。
 
 其中搜“中村夏実 声優”可以搜到[这么一个网页](https://www.visual-arts-osaka.ac.jp/gakka/voice/level/)，虽然有照片但是我脸盲对着22/7的人看了半天也看不出有没有同人。
 
 另外M&R的hotaru看来是没来。
+
+2021-07-25更新：最近Liyuu被盛大真名解放的事情很火，于是我搜了下“Liyuu 真名”，居然Google第一条出来的就是这Blog (bgm38) 于是看了下下面的列表，本来以为是STAFF的那位“李嘉”…… 咳，就不更新到列表里了。
 
 | 真名       |艺名 | 团体        | 备注     |
 |------------|---------|-------------|------------|
