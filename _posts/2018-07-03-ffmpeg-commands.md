@@ -7,10 +7,10 @@ title: FFMPEG常用命令收集
 
 [详细见Blog文](https://fireattack.wordpress.com/2019/09/19/convert-image-to-video-using-ffmpeg/)
 ```bat
-ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709,format=yuv420p -color_primaries 1 -color_trc 1 -colorspace 1 -t 30 out2.mp4
+ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709:r=limited,format=yuv420p -color_primaries 1 -color_trc 1 -colorspace 1 -t 30 out2.mp4
 ```
 
-* `-vf zscale=matrix=709`负责转换色域，否则默认转出来是BT.601之类的SD标准
+* `-vf zscale=matrix=709:r=limited`负责转换色域，否则默认转出来是BT.601之类的SD标准。显式指定limited，因为最新版zimg默认是fullrange了。
   * 尽量不要用`scale`，因为有BUG。具体参见上述Blog文
 * `-color_primaries 1 -color_trc 1 -colorspace 1`部分负责添加相应的metatag，三者的区别参见[Blog文](https://fireattack.wordpress.com/2018/06/03/topics-about-dvd-encoding/)#Color相关章节
   * x264的话也可以用`-x264opts colorprim=bt709:transfer=bt709:colormatrix=bt709`
@@ -20,7 +20,7 @@ ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709,format=yuv420p -color_p
 ```bat
 ffmpeg -loop 1 -r 1 -i a.png ^
 -i a.wav ^
--r 1 -shortest -vf zscale=matrix=709,format=yuv420p -c:v libx264 -tune stillimage -y aaa.mp4
+-r 1 -shortest -vf zscale=matrix=709:r=limited,format=yuv420p -c:v libx264 -tune stillimage -y aaa.mp4
 ```
 * 第一行输入1，`-r 1` 来控制input强制1fps读取（否则会把单图重复读取N遍，很慢）；`-loop 1`保证loop（长度无限）。否则后面的`-shortest`无效。~~这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…~~ 找到了，在[ffmpeg-formats.html § 3.9 image2](https://ffmpeg.org/ffmpeg-formats.html])这个image demuxer的说明里。
 * 第二行输入2，没有什么要改的。
@@ -36,9 +36,9 @@ ffmpeg -loop 1 -r 1 -i a.png ^
 参见[Blog文](https://fireattack.wordpress.com/2018/06/09/full-range-video-in-browsers/)
 
 ```bat
-ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709,format=yuvj420p -color_primaries 1 -color_trc 1 -colorspace 1 -t 30 out2.mp4
+ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709:r=full,format=yuvj420p -color_primaries 1 -color_trc 1 -colorspace 1 -t 30 out2.mp4
 ```
-* 重点：使用`yuvj420p`
+* 重点：使用`yuvj420p`。可以显式加r=full或者r=pc，不过好像加不加没区别，yuvj420p已经imply了。
 * `-color_range 2`不要用，效果其实就是强行在元数据里塞个full range，结果视频的像素数值还都是16-235范围内的，也就是说会出来一个灰暗的色域未正常伸张的视频
 * 也有`-x264opts fullrange=on`，没试过
 
