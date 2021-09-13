@@ -29,7 +29,9 @@ ffmpeg -loop 1 -r 1 -i a.png ^
 ### 2020-08-02更新
 
 最近发现FFMPEG有个[regression / bug](https://trac.ffmpeg.org/ticket/5456)，使用上述的方式转，出来的视频会比音频长；在input有`-r 1`时更明显（改成较大数值则能缓解）。
-在以上ticket里有人推荐最后添加`-fflags +shortest -max_interleave_delta 500M`来缓解，但是在我这里效果不是很明显。有一个笨方法是先压出来，然后再强行`-c copy -t {audio.length}`一波……
+在以上ticket里有人推荐最后添加`-fflags +shortest -max_interleave_delta 500M`来缓解，但是在我这里效果不是很明显。
+
+如果想要准确，还是老老实实先获取音频的长度，然后`-t`吧（`-shortest`就不用了）。
 
 ## 静态图转Full range视频
 
@@ -150,3 +152,44 @@ else:
 
 开了`-c copy`同理，但是注意只能关键帧切割，所以准确度会差一些。
 
+## 制作dummy视频
+
+https://superuser.com/questions/1398756/add-audio-or-video-track-if-not-present-in-input-with-ffmpeg
+
+```batch
+ffmpeg -f lavfi -i color -f lavfi -i anullsrc -ac 1 -ar 8000 -t 5 dummy.webm
+ffmpeg -i input.webm -stream_loop -1 -i dummy.webm -c copy -shortest av.webm
+```
+
+* 第一行制作一个dummy视频，然后可以用`-stream_loop -1`来循环。
+* 可以按需加上诸如 `-vf scale=1280:720,setsar=1:1 -r 30` 之类的。
+
+## 强制指定keyframe
+
+* https://superuser.com/questions/1356862/how-to-add-additional-key-frames-to-video-using-ffmpeg
+* https://superuser.com/questions/908280/what-is-the-correct-way-to-fix-keyframes-in-ffmpeg-for-dash
+
+我这里测试 `-x264-params keyint=20` 基本就够了，但是有一些其他的参数见上，可以参考。
+
+## 显示总帧数
+
+https://stackoverflow.com/questions/2017843/fetch-frame-count-with-ffmpeg
+
+## 显示关键帧时间戳
+
+https://stackoverflow.com/questions/18085458/checking-keyframe-interval
+
+* 原文是用`awk`，我没有，那Python吧……
+
+```python
+import json
+from subprocess import check_output
+
+input = 'out.ts'
+d = check_output(f"ffprobe -loglevel error -select_streams v:0 -show_entries packet=pts_time,flags -of json {input}").decode('ansi')
+d = json.loads(d)
+
+for a in d['packets']:
+    if 'K' in a['flags']:
+        print(a['pts_time'])
+```
