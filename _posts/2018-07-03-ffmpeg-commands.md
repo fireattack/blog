@@ -24,16 +24,9 @@ ffmpeg -v warning -stats -loop 1 -r 1 -i a.png -i a.wav -r 1 -shortest -fflags s
 * 注意 ffmpeg 分为input和output选项，input选项是在对应的-i前面。* 先输入1（图片），前面的`-r 1` 来控制input强制1fps读取（否则会把单图重复读取N遍，很慢）；`-loop 1`保证loop（长度无限）。否则后面的`-shortest`无效。~~这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…~~ 找到了，在[ffmpeg-formats.html § 3.9 image2](https://ffmpeg.org/ffmpeg-formats.html])这个image demuxer的说明里。
 * 再输入2（音频），没有什么要动的。
 * 之后就是输出控制，同样`-r 1`减少体积。如果考虑到兼容性（比如上传B站），可以改成比较常见的帧率例如30。
-* `-shortest`是选择两个输入最短的（即和音频等长，因为图片我们loop了）。但是由于ffmpeg实现的问题（参见Gyan的[此贴](https://www.reddit.com/r/ffmpeg/comments/keobv8/shortest_doesnt_work_as_intended/)以及这个[bug ticket](https://trac.ffmpeg.org/ticket/5456)），只加一个high level的`-shortest`是不够的，因为容器interleave的原因会出现最终结果比音频长几秒钟的情况，要加这么一大串`-shortest -fflags shortest -max_interleave_delta 100M`。
+* `-shortest`是选择两个输入最短的（即和音频等长，因为图片我们loop了）。但是由于ffmpeg实现的问题（参见[bug ticket](https://trac.ffmpeg.org/ticket/5456)），只加一个high level的`-shortest`是不够的，因为容器interleave的原因会出现最终结果比音频长几秒钟的情况，要加这么一大串`-shortest -fflags shortest -max_interleave_delta 100M`来缓解（参见Gyan的[此贴](https://www.reddit.com/r/ffmpeg/comments/keobv8/shortest_doesnt_work_as_intended/)）。但是此法也并不能完全解消除问题。想要完全准确，还是老老实实先获取音频的长度，然后`-t`吧（`-shortest`就不用了）。
 * `-vf zscale=matrix=709:r=limited,format=yuv420p`的部分原因同上。
 * 编码部分可以自行根据需求调整。
-
-### 2020-08-02更新
-
-最近发现FFMPEG有个[regression / bug](https://trac.ffmpeg.org/ticket/5456)，使用上述的方式转，出来的视频会比音频长；在input有`-r 1`时更明显（改成较大数值则能缓解）。
-在以上ticket里有人推荐最后添加`-fflags +shortest -max_interleave_delta 500M`来缓解，但是在我这里效果不是很明显。
-
-如果想要准确，还是老老实实先获取音频的长度，然后`-t`吧（`-shortest`就不用了）。
 
 ## 静态图转Full range视频
 
