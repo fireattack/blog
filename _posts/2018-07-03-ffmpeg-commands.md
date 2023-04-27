@@ -12,19 +12,21 @@ ffmpeg -loop 1 -i colortest_hd.bmp -vf zscale=matrix=709:r=limited,format=yuv420
 
 * `-vf zscale=matrix=709:r=limited`负责转换色域，否则默认转出来是BT.601之类的SD标准。显式指定limited，因为最新版zimg默认是fullrange了。
   * 尽量不要用`scale`，因为有BUG。具体参见上述Blog文
+* `format=yuv420p`负责输出4:2:0的视频
 * `-color_primaries 1 -color_trc 1 -colorspace 1`部分负责添加相应的metatag，三者的区别参见[Blog文](https://fireattack.wordpress.com/2018/06/03/topics-about-dvd-encoding/)#Color相关章节
   * x264的话也可以用`-x264opts colorprim=bt709:transfer=bt709:colormatrix=bt709`
-* `format=yuv420p`负责输出4:2:0的视频
 
 ## 静态图+音频转视频
 ```bat
-ffmpeg -loop 1 -r 1 -i a.png ^
--i a.wav ^
--r 1 -shortest -vf zscale=matrix=709:r=limited,format=yuv420p -c:v libx264 -tune stillimage -y aaa.mp4
+ffmpeg -v warning -stats -loop 1 -r 1 -i a.png -i a.wav -r 1 -shortest -fflags shortest -max_interleave_delta 100M -vf zscale=matrix=709:r=limited,format=yuv420p -c:a copy -c:v libx264 -tune stillimage -y aaa.mp4
 ```
-* 第一行输入1，`-r 1` 来控制input强制1fps读取（否则会把单图重复读取N遍，很慢）；`-loop 1`保证loop（长度无限）。否则后面的`-shortest`无效。~~这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…~~ 找到了，在[ffmpeg-formats.html § 3.9 image2](https://ffmpeg.org/ffmpeg-formats.html])这个image demuxer的说明里。
-* 第二行输入2，没有什么要改的。
-* 第三行是输出控制，同样`-r 1`减少体积。`-shortest`是选择两个输入最短的（即和音频等长，因为图片我们loop了）。
+* `-v warning -stats`: 只显示进度和警告以上的输出。
+* 注意 ffmpeg 分为input和output选项，input选项是在对应的-i前面。* 先输入1（图片），前面的`-r 1` 来控制input强制1fps读取（否则会把单图重复读取N遍，很慢）；`-loop 1`保证loop（长度无限）。否则后面的`-shortest`无效。~~这里吐个槽，不知道为啥我在FFMPEG的文档完全找不到loop的说明…~~ 找到了，在[ffmpeg-formats.html § 3.9 image2](https://ffmpeg.org/ffmpeg-formats.html])这个image demuxer的说明里。
+* 再输入2（音频），没有什么要动的。
+* 之后就是输出控制，同样`-r 1`减少体积。如果考虑到兼容性（比如上传B站），可以改成比较常见的帧率例如30。
+* `-shortest`是选择两个输入最短的（即和音频等长，因为图片我们loop了）。但是由于ffmpeg实现的问题（参见Gyan的[此贴](https://www.reddit.com/r/ffmpeg/comments/keobv8/shortest_doesnt_work_as_intended/)以及这个[bug ticket](https://trac.ffmpeg.org/ticket/5456)），只加一个high level的`-shortest`是不够的，因为容器interleave的原因会出现最终结果比音频长几秒钟的情况，要加这么一大串`-shortest -fflags shortest -max_interleave_delta 100M`。
+* `-vf zscale=matrix=709:r=limited,format=yuv420p`的部分原因同上。
+* 编码部分可以自行根据需求调整。
 
 ### 2020-08-02更新
 
@@ -138,7 +140,7 @@ if user_input == '':
     return
 else:
     inputs = user_input.split(' ')
-    commands = ['ffmpeg', '-ss', inputs[0], '-i', input_file]            
+    commands = ['ffmpeg', '-ss', inputs[0], '-i', input_file]
     if len(inputs) == 2:
         t = str(parse_duration(inputs[1]) - parse_duration(inputs[0]))
         commands.extend(['-t', t])
