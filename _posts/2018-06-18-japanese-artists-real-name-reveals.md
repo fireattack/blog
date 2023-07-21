@@ -14,9 +14,9 @@ B站办BML的俩通告，暴露了一些真名——大部分都是公开信息�
 
 真名（罗马字）|性别|类别|国籍|艺名|团体
 ---|---|---|---|---|---
-NAKAGAWA REIKO|女|舞蹈|日本 
-SAITO NIINA|女|舞蹈|日本 
-SUZUKI YUKIE|女|舞蹈|日本 
+NAKAGAWA REIKO|女|舞蹈|日本
+SAITO NIINA|女|舞蹈|日本
+SUZUKI YUKIE|女|舞蹈|日本
 ABE YOSHINOLI|男|演奏|日本|toku/阿部 尚徳|GARNiDELiA
 MIZUHASHI MAI|女|歌手|日本|MARiA/水橋 舞|GARNiDELiA
 KATO KAZUNA|女|歌手|日本|**towana?**|fhána
@@ -49,19 +49,19 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 * [通告](http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567) ([web.archive.org备份](https://web.archive.org/web/20191013212734/http://whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5395597726523567), [archive.today备份](http://archive.ph/YQnBz), [附件doc备份](https://web.archive.org/web/20191013212800/http://whlyj.beijing.gov.cn/cms/web/whj/file.jsp?id=5395597726523567))
 
-#### 名称
+### 人名
 重点是爆了爱生旦那的姓氏，以及22/7全体。我不熟对不上号，只把名一样的放进去了（帆風千春由于早就知道是爱美的妹妹，所以姓寺川不算新闻），其他堆在后面。
 
-其中搜“中村夏実 声優”可以搜到[这么一个网页](https://www.visual-arts-osaka.ac.jp/gakka/voice/level/)，虽然有照片但是我脸盲对着22/7的人看了半天也看不出有没有同人。
+其中搜“中村夏実 声優”可以搜到[这么一个网页](https://www.visual-arts-osaka.ac.jp/gakka/voice/level/)，虽然有照片但是我脸盲对着22/7的人看了半天也看不出有没有同人。另外M&R的hotaru看来是没来？
 
-另外M&R的hotaru看来是没来。
+2020-09-28更新：根据2ch某贴更新了下22/7的对应列表。因为花川芽衣并没有来，所以十个人已经齐了的，这个第一个的“田中爱美”就不知道是什么情况了，可能并不是22/7的人吧。但是那位大家都知道的声优田中あいみ好像没看到来了BICAF，当然也可能请了最后没来成。姑且还是先放在这里。
 
 2021-07-25更新：最近Liyuu被盛大真名解放的事情很火，于是我搜了下“Liyuu 真名”，居然Google第一条出来的就是这Blog (bgm38) 于是看了下下面的列表，本来以为是STAFF的那位“李嘉”…… 咳，就不更新到列表里了。
 
 | 真名       |艺名 | 团体        | 备注     |
 |------------|---------|-------------|------------|
-| 李嘉       |          |             |            |
-| 田中爱美   |          | 22/7        |没来的：花川芽衣|
+| 李嘉       | 你懂的   |             |            |
+| 田中爱美   |     ?    | ~~22/7~~(?)|        |
 | 中村夏実   |  海乃るり(?)        | 22/7        |   |
 | 麻生千贺   |宮瀬玲奈(?)| 22/7        |      |
 | 小野麗華   |   高辻麗(?)       | 22/7        |    |
@@ -71,7 +71,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 | 中川美映   |   白沢かなえ(?)        | 22/7        |      |
 | **寺川千春**   | 帆風千春 | 22/7        |            |
 | **白川萌**     | 涼花萌   | 22/7        |            |
-| **山崎爱奈**   | 武田愛奈 | 22/7        |            |
+| **山崎爱奈**   | 武田愛奈 | 22/7        |注：22/7的花川芽衣没来 |
 | 齊藤真知子 | Machico  |             |            |
 | 伊藤彩     | 春奈るな |             |            |
 | 新田恵海   | 新田恵海 |             |            |
@@ -84,8 +84,6 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 | 宋璇       |          |             |            |
 | 大嶋文博   | Tom-H@ck | MYTH & ROID |            |
 | **岡田花菜**   | KIHOW?   | MYTH & ROID |            |
-
-20/9/28更新：根据2ch某贴更新了下22/7的对应列表。
 
 ### 报备歌单
 
@@ -147,7 +145,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 01. アイヲウタエ
 02. 空は高く風は歌う
-03. ステラブリーズ 
+03. ステラブリーズ
 04. glory days
 05. 君色シグナル
 
@@ -196,3 +194,28 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 1. Hazy
 1. Pride on Everyday
 1. HIGH POWERED
+
+## 2023-07: BML2023
+
+又是BML，这次是Liella!。
+
+现在上海文化局的官网的审批公告明明都打码了（但是却加入了打码后的身份证号？？），不过不意外地还是流出了，虽然不知道具体出处。随便贴个5ch和まとめ的ref。
+
+1. [上海市文化和旅游局通告](http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a1892f827c0189434d785a172a) ([web.archive.org备份](https://web.archive.org/web/20230721075532/http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a1892f827c0189434d785a172a))
+2. [5ch](https://eagle.5ch.net/test/read.cgi/livejupiter/1689853884/) ([web.archive.org备份](https://web.archive.org/web/20230721125919/https://eagle.5ch.net/test/read.cgi/livejupiter/1689853884/))
+3. [某まとめ](http://lovelivematocha.com/blog-entry-44850.html) ([web.archive.org备份](https://web.archive.org/web/20230721125839/http://lovelivematocha.com/blog-entry-44850.html))
+
+大部分都是已知信息了（例如[这里](https://twitter.com/puripara_nako/status/1566845649999773696)22年的总结），唯一的的料就是TAKAKUWA SAYOKO是大熊和奏的真名。
+
+| 登记真名         | 公开艺名     | 汉字     | 备注                        |
+|------------------|--------------|----------|-----------------------------|
+| DATE SAYURI      |  伊達さゆり  | (同)     | 真名同或同音                |
+| 李嘉             |     Liyuu    | 李嘉     | 真名已知                    |
+| HIGASHIDA MISAKI |    岬なこ    | 東田岬   | 真名已知 (之前艺能活动使用) |
+| NAOMI・J・PAYTON | ペイトン尚未 | (同)     | 真名同, 中间名new!          |
+| SAITOU NAGISA    |  青山なぎさ  | 斎藤渚   | 真名已知 (之前艺能活动使用) |
+| SAWAMURA NOZOMI  |   鈴原希実   | (同)     | 真名同或同音                |
+| **TAKAKUWA SAYOKO**  |   薮島朱音   |  ？      | new!                        |
+| OOKUMA WAKANA    |   大熊和奏   | (同)     | 真名同或同音                |
+| YODA AYAKA       |    絵森彩    | 依田彩花 | 真名已知 (ハコムス时期使用) |
+
