@@ -219,3 +219,11 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 | OOKUMA WAKANA    |   大熊和奏   | (同)     | 真名同或同音                |
 | YODA AYAKA       |    絵森彩    | 依田彩花 | 真名已知 (ハコムス时期使用) |
 
+
+## 2023-09: 花江夏树2023上海粉丝见面会
+
+花江夏树真名：TAKEDA NATSUKI
+
+* [通告地址](http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a189cde0900189d38b43970e11) ([web.archive.org备份](https://web.archive.org/web/20230811162118/http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a189cde0900189d38b43970e11))
+
+
