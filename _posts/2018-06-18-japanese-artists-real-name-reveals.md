@@ -226,4 +226,4 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 
 * [通告地址](http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a189cde0900189d38b43970e11) ([web.archive.org备份](https://web.archive.org/web/20230811162118/http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a189cde0900189d38b43970e11))
 
-
+2024-01更新：现在上海市文化和旅游局学精了，不再写“主要演员”那一栏。可以对比上面的链接和 archive 的链接。
