@@ -205,7 +205,7 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 2. [5ch](https://eagle.5ch.net/test/read.cgi/livejupiter/1689853884/) ([web.archive.org备份](https://web.archive.org/web/20230721125919/https://eagle.5ch.net/test/read.cgi/livejupiter/1689853884/))
 3. [某まとめ](http://lovelivematocha.com/blog-entry-44850.html) ([web.archive.org备份](https://web.archive.org/web/20230721125839/http://lovelivematocha.com/blog-entry-44850.html))
 
-大部分都是已知信息了（例如[这里](https://twitter.com/puripara_nako/status/1566845649999773696)22年的总结），唯一的的料就是TAKAKUWA SAYOKO是大熊和奏的真名。
+大部分都是已知信息了（例如[这里](https://twitter.com/puripara_nako/status/1566845649999773696)22年的总结），唯一的的料就是TAKAKUWA SAYOKO是薮島朱音的真名。
 
 | 登记真名         | 公开艺名     | 汉字     | 备注                        |
 |------------------|--------------|----------|-----------------------------|
@@ -227,3 +227,23 @@ Aimer的真名：FUJIMOTO EMI（藤本惠实）
 * [通告地址](http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a189cde0900189d38b43970e11) ([web.archive.org备份](https://web.archive.org/web/20230811162118/http://wsbs.wgj.sh.gov.cn/shwgj_ywtb/core/web/welcome/index!getDocumentinfobyId.action?id=2c9285a189cde0900189d38b43970e11))
 
 2024-01更新：现在上海市文化和旅游局学精了，不再写“主要演员”那一栏。可以对比上面的链接和 archive 的链接。
+
+## 2024-02: RAISE A SUILEN
+
+出处依然同上是所谓的内部流出。官方网站只能看到首字母。
+
+![](https://i.imgur.com/IvUCcgO.jpeg)
+
+![](https://i.imgur.com/JYJINUs.jpeg)
+
+([web.archive.org备份](https://web.archive.org/web/20240205145948/https://imgur.com/a/1jVC8D5))
+
+
+| 登记真名         | 公开艺名     | 真名对应汉字     | 备注                        |
+|------------------|--------------|----------|-----------------------------|
+| SUGAYA IKUMI     | Raychell  | 菅谷郁美    |      |
+| NORITA RIKO      | 小原莉子  |  乘田莉子   |                |
+| MATSUURA NATSUME | 夏芽      | 松浦夏芽   | 已知信息 |
+| FUJIKURA RENA    | 倉知玲鳳  | 藤倉玲奈 |           |
+| KINJO RISA       | 紡木吏佐  | 金城吏佐   |            |
+
